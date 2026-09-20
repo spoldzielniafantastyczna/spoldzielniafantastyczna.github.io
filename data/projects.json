@@ -1,20 +1,6 @@
 {
   "projects": [
     {
-      "id": "cube",
-      "title": "Kostka demonstracyjna",
-      "description": "Przykładowy projekt demonstrujący galerię zdjęć i interaktywną przeglądarkę modeli STL. To nie prawdziwe zlecenie — zwykła 30-milimetrowa kostka kalibracyjna użyta do przetestowania szablonu projektu na tej stronie.",
-      "cover": "projects/cube/images/cover.png",
-      "images": [
-        "projects/cube/images/cover.png",
-        "projects/cube/images/01.png",
-        "projects/cube/images/02.png",
-        "projects/cube/images/03.png"
-      ],
-      "stl": "projects/cube/model/cube.stl",
-      "tags": ["Demo", "Druk 3D"]
-    },
-    {
       "id": "temperature-tower",
       "title": "Wieża do kalibracji temperatury",
       "description": "Wieża kalibracyjna drukowana w jednym cyklu, służąca do wyznaczenia właściwej temperatury dyszy dla danego filamentu. Każdy 10-milimetrowy stopień odpowiada zmianie o 5°C, więc przejście między warstwami pokazuje dokładnie, kiedy materiał zaczyna być nad- lub niedotłaczany.",
@@ -38,6 +24,17 @@
       "tags": ["Rekwizyt", "Własny projekt"],
       "stl": "projects/shuriken-prop/model/shuriken-prop.stl",
       "source": "https://makerworld.com/en/models/487781-shuriken-prop"
+    },
+    {
+      "id": "okraglak",
+      "title": "Okrąglak",
+      "description": "Modernistyczny budynek w centrum Poznania przy ul. Mielżyńskiego 14, na rogu ul. 27 Grudnia, zbudowany w latach 1948–1954",
+      "cover": "projects/okraglak/images/okraglak.png",
+      "images": [
+        "projects/okraglak/images/okraglak.png"
+      ],
+      "tags": ["Budynek", "Druk 3D"],
+      "stl": "projects/okraglak/model/okraglak.stl"
     }
   ]
 }
