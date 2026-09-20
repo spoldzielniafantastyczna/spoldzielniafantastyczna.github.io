@@ -23,7 +23,7 @@ function renderProject(project, { prev, next }) {
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) metaDesc.setAttribute('content', project.description);
 
-  const canonicalUrl = `https://spoldzielniafantastyczna.pl/project.html?id=${encodeURIComponent(project.id)}`;
+  const canonicalUrl = `https://spoldzielniafantastyczna.github.io/project.html?id=${encodeURIComponent(project.id)}`;
   document.querySelector('[data-canonical]')?.setAttribute('href', canonicalUrl);
   document.querySelector('[data-og-url]')?.setAttribute('content', canonicalUrl);
 
