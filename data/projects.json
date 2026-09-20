@@ -16,7 +16,7 @@
     },
     {
       "id": "temperature-tower",
-      "title": "Wieża kalibracji temperatury",
+      "title": "Wieża do kalibracji temperatury",
       "description": "Wieża kalibracyjna drukowana w jednym cyklu, służąca do wyznaczenia właściwej temperatury dyszy dla danego filamentu. Każdy 10-milimetrowy stopień odpowiada zmianie o 5°C, więc przejście między warstwami pokazuje dokładnie, kiedy materiał zaczyna być nad- lub niedotłaczany.",
       "cover": "projects/temp-tower/images/cover.webp",
       "images": [
@@ -24,12 +24,11 @@
         "projects/temp-tower/images/01.webp"
       ],
       "tags": ["Narzędzie kalibracyjne", "Własny projekt", "PLA"],
-      "stl": "projects/temp-tower/model/temp-tower.stl",
       "source": "https://makerworld.com/en/models/494474-temperature-tower-for-a1-mini-235-190deg-c"
     },
     {
       "id": "shuriken-prop",
-      "title": "Rekwizyt Shuriken",
+      "title": "Shuriken",
       "description": "Wystawowy shuriken zaprojektowany do czystego druku z jednej części, bez podpór. Wyrazista sylwetka, płaska orientacja na stole roboczym i satysfakcjonujący stosunek wagi do rozmiaru jako rekwizyt na biurko.",
       "cover": "projects/shuriken-prop/images/cover.webp",
       "images": [
