@@ -1,0 +1,13 @@
+{
+  "name": "Spółdzielnia Fantastyczna",
+  "shortName": "Spółdzielnia Fantastyczna",
+  "domain": "spoldzielniafantastyczna.pl",
+  "url": "https://spoldzielniafantastyczna.pl",
+  "tagline": "Zamieniamy pomysły w fizyczne przedmioty.",
+  "email": "spoldzielniafantastyczna@gmail.com",
+  "makerworld": "https://makerworld.com/en/@spoldz_1004",
+  "social": {
+    "makerworld": "https://makerworld.com/en/@spoldz_1004"
+  },
+  "formspreeEndpoint": ""
+}

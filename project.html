@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projekt — Spółdzielnia Fantastyczna</title>
+  <meta name="description" content="Szczegóły projektu, galeria zdjęć i podgląd modelu 3D." />
+  <link rel="canonical" href="https://spoldzielniafantastyczna.pl/project.html" data-canonical />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Spółdzielnia Fantastyczna" />
+  <meta property="og:url" content="https://spoldzielniafantastyczna.pl/project.html" data-og-url />
+  <meta property="og:image" content="https://spoldzielniafantastyczna.pl/assets/branding/og-image.jpg" />
+
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/icon-32.png" />
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+  <meta name="theme-color" content="#141312" />
+
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/gallery.css" />
+  <link rel="stylesheet" href="css/viewer.css" />
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./assets/vendor/three/three.module.js",
+      "three/addons/loaders/STLLoader.js": "./assets/vendor/three/STLLoader.js",
+      "three/addons/controls/OrbitControls.js": "./assets/vendor/three/OrbitControls.js"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img src="assets/branding/makerworld-avatar.png" alt="Spółdzielnia Fantastyczna logo" width="34" height="34" />
+        <span>Spółdzielnia Fantastyczna</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Przełącz nawigację" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18" />
+        </svg>
+      </button>
+      <nav class="main-nav" aria-label="Główna" data-open="false">
+        <ul>
+          <li><a href="index.html#home">Start</a></li>
+          <li><a href="index.html#about">O nas</a></li>
+          <li><a href="index.html#projects" aria-current="page">Projekty</a></li>
+          <li><a href="index.html#capabilities">Co możemy wydrukować</a></li>
+          <li><a href="index.html#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="project-hero">
+      <div class="container">
+        <div class="project-hero__nav">
+          <a class="back-link" href="index.html#projects">← Wróć do projektów</a>
+          <div class="project-hero__pager">
+            <a class="arrow-btn" data-project-prev href="#" aria-label="Poprzedni projekt">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6" /></svg>
+            </a>
+            <a class="arrow-btn" data-project-next href="#" aria-label="Następny projekt">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6" /></svg>
+            </a>
+          </div>
+        </div>
+
+        <h1 class="project-hero__title" data-project-title>Ładowanie…</h1>
+        <ul class="project-hero__tags" data-project-tags></ul>
+        <p class="project-hero__desc" data-project-desc></p>
+        <p class="project-hero__source" data-project-source hidden>
+          Pierwotnie opublikowane na <a href="#" target="_blank" rel="noopener">MakerWorld</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="gallery">
+          <div class="gallery__main" data-gallery-main>
+            <img src="" alt="" />
+          </div>
+          <div class="gallery__thumbs" data-gallery-thumbs></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" data-viewer-section hidden>
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Interaktywnie</p>
+          <h2>Model 3D</h2>
+          <p>Przeciągnij, aby obrócić. Powiększaj scrollem lub gestem szczypania.</p>
+        </div>
+        <div class="model-viewer">
+          <div class="model-viewer__status" data-viewer-status>
+            <div class="spinner" aria-hidden="true"></div>
+            <p>Ładowanie modelu 3D…</p>
+          </div>
+          <p class="model-viewer__hint" data-viewer-hint>Przeciągnij, aby obrócić</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span data-site="year">2026</span> Spółdzielnia Fantastyczna</p>
+      <div class="footer-links">
+        <a data-site="makerworld" href="#" target="_blank" rel="noopener">MakerWorld</a>
+        <a data-site="email" href="mailto:">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" data-lightbox data-open="false" role="dialog" aria-modal="true" aria-label="Przeglądarka zdjęć">
+    <button class="lightbox__prev" type="button" aria-label="Poprzednie zdjęcie">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M15 18l-6-6 6-6" /></svg>
+    </button>
+    <img src="" alt="" />
+    <button class="lightbox__next" type="button" aria-label="Następne zdjęcie">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M9 18l6-6-6-6" /></svg>
+    </button>
+    <button class="lightbox__close" type="button" aria-label="Zamknij przeglądarkę zdjęć">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M6 6l12 12M18 6L6 18" /></svg>
+    </button>
+    <span class="lightbox__counter" data-lightbox-counter></span>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/project-page.js"></script>
+</body>
+</html>
